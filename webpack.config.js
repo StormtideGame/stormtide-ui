@@ -6,7 +6,7 @@ const babelConfig = JSON.parse(readFileSync(".babelrc", "utf8"));
 let outputDir = "debug";
 
 if (process.env.NODE_ENV === "production") {
-	outputDir = "production";
+	outputDir = "lib";
 }
 
 const config = {
