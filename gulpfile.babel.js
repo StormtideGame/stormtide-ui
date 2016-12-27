@@ -23,7 +23,7 @@ const browserSync = BS.create();
 const build = {};
 
 build.lib = () => {
-	return gulp.src("src/**/*.js", { base: "src" })
+	return gulp.src("src/**/*.{js,jsx}", { base: "src" })
 		.pipe(plumber())
 		.pipe(sourcemaps.init())
 		.pipe(babel())
