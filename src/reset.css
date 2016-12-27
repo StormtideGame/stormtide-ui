@@ -1,0 +1,6 @@
+*, *::before, *::after {
+	all: unset;
+
+	box-sizing: border-box;
+	display: flex;
+}

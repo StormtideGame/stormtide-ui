@@ -1,6 +1,7 @@
 node_modules
-coverage
 lib
+coverage
+debug
 
 .nyc_output
 *.log
