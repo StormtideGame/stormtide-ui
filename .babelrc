@@ -1,0 +1,21 @@
+{
+	"presets": ["es2015"],
+	"plugins": [
+		"transform-decorators-legacy",
+		"transform-class-properties",
+		"fast-async",
+		"transform-object-rest-spread",
+		["module-resolver", {
+			"root": [],
+			"alias": {
+				"stormtide-ui": "./src/index"
+			}
+		}],
+		"transform-flow-strip-types"
+	],
+	"env": {
+		"test": {
+			"plugins": ["istanbul"]
+		}
+	}
+}

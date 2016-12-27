@@ -1,0 +1,5 @@
+flow-typed
+decls
+coverage
+
+.nyc-output

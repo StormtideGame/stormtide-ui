@@ -1,0 +1,16 @@
+[version]
+^0.37
+
+[ignore]
+<PROJECT_ROOT>/index.js
+<PROJECT_ROOT>/node_modules/.*
+<PROJECT_ROOT>/lib/.*
+<PROJECT_ROOT>/.nyc_output/.*
+
+[libs]
+decls/
+
+[options]
+module.name_mapper='^stormtide-ui$' -> '<PROJECT_ROOT>/src/index'
+module.use_strict=true
+esproposal.decorators=ignore
