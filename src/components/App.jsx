@@ -2,6 +2,8 @@
 
 import React from "react";
 
+import { Game } from "stormtide-core";
+
 export default class App extends React.Component {
 	state = {
 		value: 0

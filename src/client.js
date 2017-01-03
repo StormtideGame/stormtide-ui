@@ -12,6 +12,6 @@ app.classList.add("StormtideContext");
 document.body.appendChild(app);
 
 ReactDOM.render(
-	<App />,
+	React.createElement(App, null),
 	app
 );

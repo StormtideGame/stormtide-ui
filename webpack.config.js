@@ -11,7 +11,7 @@ if (process.env.NODE_ENV === "production") {
 
 const config = {
 	entry: {
-		app: "./src/client.jsx",
+		app: "./src/client.js",
 		vendor: [
 			"babel-polyfill",
 			"react", "react-dom"
