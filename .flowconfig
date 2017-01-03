@@ -12,5 +12,6 @@ decls/
 
 [options]
 module.name_mapper='^stormtide-ui$' -> '<PROJECT_ROOT>/src/index'
+module.name_mapper='^stormtide-core$' -> '<PROJECT_ROOT>/node_modules/stormtide-core'
 module.use_strict=true
 esproposal.decorators=ignore
